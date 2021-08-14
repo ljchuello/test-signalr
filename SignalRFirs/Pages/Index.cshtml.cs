@@ -13,12 +13,5 @@ namespace SignalRFirs.Pages
         {
             _logger = logger;
         }
-
-        private PositionHub positionHub = new PositionHub();
-
-        //public async Task OnGetAsync()
-        //{
-        //    await positionHub.SendPosition(150, 150);
-        //}
     }
 }

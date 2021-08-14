@@ -7,7 +7,7 @@ namespace SignalRFirs.Hubs
     {
         public async Task SendPosition(int left, int top)
         {
-            await Clients.Others.SendAsync("ReceivePosition", left, top);
+            await Clients.All.SendAsync("ReceivePosition", left, top);
         }
     }
 }
