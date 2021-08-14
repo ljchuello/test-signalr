@@ -32,7 +32,7 @@ namespace SignalRFirs.Controller
         {
             try
             {
-                var url = "https://localhost:44337/positionhub";
+                var url = "https://signalrfirs20210814000655.azurewebsites.net/positionhub";
 
                 var connection = new HubConnectionBuilder()
                     .WithUrl(url)
